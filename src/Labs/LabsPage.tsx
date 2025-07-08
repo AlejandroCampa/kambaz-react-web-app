@@ -4,12 +4,12 @@ function LabsPage() {
   return (
     <>
       {/* ---------- IDENTIFICATION + LINKS ---------- */}
-      <h1>Lab 1 – Your Name (Section ###)</h1>
+      <h1>Lab 1 – Alejandro Campa (Section ###)</h1>
       <p>
         Deployed site:&nbsp;
-        <a href="https://YOUR-NETLIFY-URL.netlify.app">Netlify link</a> &nbsp;|&nbsp;
+        <a href="https://joyful-lamington-9450a4.netlify.app/">Netlify link</a> &nbsp;|&nbsp;
         GitHub:&nbsp;
-        <a id="wd-github" href="https://github.com/YOUR_USERNAME/YOUR_REPO">
+        <a id="wd-github" href="https://github.com/AlejandroCampa/kambaz-react-web-app">
           repo
         </a>
       </p>
