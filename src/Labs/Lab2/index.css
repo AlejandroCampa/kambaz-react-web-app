@@ -1,0 +1,66 @@
+/* index.css for Lab 2 */
+
+/* General styling */
+#wd-lab2 {
+    font-family: 'Segoe UI', sans-serif;
+    color: #222;
+  }
+  
+  /* Heading + paragraph */
+  .wd-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .wd-paragraph {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Colored Boxes */
+  .wd-box-container {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .wd-box {
+    flex: 1;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+  
+  .red {
+    background-color: #dc3545;
+  }
+  
+  .green {
+    background-color: #28a745;
+  }
+  
+  .blue {
+    background-color: #007bff;
+  }
+  
+  /* Flex Layout */
+  .wd-flex-layout {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .wd-card {
+    flex: 1;
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  }
+  

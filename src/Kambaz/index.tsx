@@ -1,8 +1,8 @@
-
 import { Routes, Route, Navigate, Link } from "react-router-dom";
 import Account from "./Account";
 import Dashboard from "./Dashboard";
 import Courses from "./Courses";
+import Labs from "../Labs"; // ✅ imports the Labs router
 
 export default function Kambaz() {
   return (
@@ -18,6 +18,7 @@ export default function Kambaz() {
         <Route path="Account/*" element={<Account />} />
         <Route path="Dashboard" element={<Dashboard />} />
         <Route path="Courses/:cid/*" element={<Courses />} />
+        <Route path="/Labs/*" element={<Labs />} /> {/* ✅ wildcard here */}
       </Routes>
     </div>
   );

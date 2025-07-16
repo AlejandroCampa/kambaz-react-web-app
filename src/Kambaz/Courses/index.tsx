@@ -11,7 +11,7 @@ import Assignments from "./Assignments";
 import AssignmentEditor from "./Assignments/AssignmentEditor";
 
 export default function Courses() {
-  const { cid } = useParams();
+  //const { cid } = useParams();
   return (
     <div id="wd-course-shell">
       <table>
